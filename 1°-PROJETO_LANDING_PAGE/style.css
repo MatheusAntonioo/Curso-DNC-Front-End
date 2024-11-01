@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  font-family: 'inter';
+}
+
+#logo {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#tituloMenuSuperior {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+#textoMenuSuperior {
+  margin-left: 150px;
+  margin-top: 35px;
+  padding-bottom: 100px;
+}
+
+#menuSuperior {
+  background-image: url(img/fundo-menuSuperior.svg);
+  color: aliceblue;
+}
+
+#menuInformacional {
+  background-color: #EAECE5;
+  ;
+}
