@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   font-family: 'inter';
 }
 
@@ -39,4 +40,60 @@
 .textoInformacional {
   display: flex;
   align-items: center;
+}
+
+#secaoVideo {
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  justify-content: center;
+}
+
+#video {
+  margin: 100px 75px 100px 0;
+}
+
+#tituloVideo {
+  margin-top: 100px;
+  color: #247BA0;
+}
+
+#carrossel {
+  background-color: #247BA0;
+  padding: 50px;
+}
+
+#tituloCarrossel {
+  color: white;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+#cards {
+  margin-top: 25px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+
+.card {
+  margin: 0 25px;
+}
+
+#bruna {
+  display: none;
+}
+
+#setaEsquerda {
+  display: none;
+}
+
+.seta {
+  margin-top: 55%;
+  cursor: pointer;
+}
+
+.seta:hover {
+  transform: translateY(-7px);
+  transition-duration: 0.5s;
 }

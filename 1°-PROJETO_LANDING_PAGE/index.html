@@ -16,6 +16,7 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+    <!-- MENU SUPERIOR -->
     <div id="menuSuperior">
       <a href="https://www.escoladnc.com.br/"
         ><img src="img/logo.svg" id="logo" alt=""
@@ -31,6 +32,7 @@
         fundamentos para construir experiências efetivas.
       </p>
     </div>
+    <!-- MENU INFORMACIONAL -->
     <div id="menuInformacional">
       <p class="textoInformacional">
         <img class="icone" src="icons/certificado.svg" alt="" />Certificado de
@@ -42,6 +44,57 @@
       <p class="textoInformacional">
         <img class="icone" src="icons/camera.svg" alt="" />Aulas online gravadas
       </p>
+    </div>
+    <!-- SEÇÃO VIDEO -->
+    <div id="secaoVideo">
+      <iframe
+        id="video"
+        width="502"
+        height="283"
+        src="https://www.youtube.com/embed/ITxGkd9h4n4?si=APMnOfg1vtidfHeh"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <div>
+        <h1 id="tituloVideo">
+          Aprenda com especialistas e <br />
+          comece seu primeiro projeto
+        </h1>
+        <br /><br />
+        <p id="textoVideo">
+          Conheça o processo de desenvolvimento e entenda como utilizar <br />
+          os principais métodos e ferramentas da área para resolver <br />
+          problemas complexos. <br /><br />
+          Conquiste seu certificado e desenvolva um projeto prático para <br />
+          aplicar seus conhecimentos.
+        </p>
+      </div>
+    </div>
+    <!-- CARROSSEL -->
+    <div id="carrossel">
+      <h1 id="tituloCarrossel">Mais de 500 alunos já iniciaram seus estudos</h1>
+      <div id="cards">
+        <img
+          id="setaEsquerda"
+          onclick="rolarParaEsquerda()"
+          class="seta"
+          src="./icons/setaEsquerda.svg"
+          alt=""
+        />
+        <img id="leonardo" class="card" src="./cards/leonardo.svg" alt="" />
+        <img id="samantha" class="card" src="./cards/samantha.svg" alt="" />
+        <img id="bruna" class="card" src="./cards/bruna.svg" alt="" />
+        <img
+          id="setaDireita"
+          onclick="rolarParaDireita()"
+          class="seta"
+          src="./icons/setaDireita.svg"
+          alt=""
+        />
+      </div>
     </div>
   </body>
 </html>
