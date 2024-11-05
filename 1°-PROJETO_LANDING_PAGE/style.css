@@ -26,5 +26,17 @@
 
 #menuInformacional {
   background-color: #EAECE5;
-  ;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.icone {
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
+}
+
+.textoInformacional {
+  display: flex;
+  align-items: center;
 }
