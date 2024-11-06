@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'inter';
+  font-family: "inter";
 }
 
 #logo {
@@ -26,7 +26,7 @@
 }
 
 #menuInformacional {
-  background-color: #EAECE5;
+  background-color: #eaece5;
   display: grid;
   grid-auto-flow: column;
   columns: auto;
@@ -55,11 +55,11 @@
 
 #tituloVideo {
   margin-top: 100px;
-  color: #247BA0;
+  color: #247ba0;
 }
 
 #carrossel {
-  background-color: #247BA0;
+  background-color: #247ba0;
   padding: 50px;
 }
 
@@ -95,5 +95,50 @@
 
 .seta:hover {
   transform: translateY(-7px);
-  transition-duration: 0.5s;
+  transition-duration: .5s;
+}
+
+#formulario {
+  text-align: center;
+}
+
+#tituloFormulario {
+  margin: 25px;
+  color: #383838;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  background-color: #eaece5;
+  margin: 15px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+button {
+  background-color: #247ba0;
+  height: 40px;
+  width: 250px;
+  color: #eaece5;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #318fb8;
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #05103081;
+  transition-duration: .5s;
 }
