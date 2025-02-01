@@ -30,10 +30,11 @@
   display: grid;
   grid-auto-flow: column;
   columns: auto;
+  justify-content: space-around;
 }
 
 .icone {
-  margin: 50px 0px 50px 100px;
+  margin: 50px 0px;
   padding: 25px;
 }
 
@@ -95,7 +96,7 @@
 
 .seta:hover {
   transform: translateY(-7px);
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 #formulario {
@@ -140,5 +141,5 @@ button:hover {
   color: white;
   transform: translateY(-7px);
   box-shadow: 0px 15px 20px #05103081;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
